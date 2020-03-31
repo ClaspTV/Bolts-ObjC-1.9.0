@@ -1,1 +1,1 @@
-# Bolts (without App Links)
+# Bolts (Without App Links)
