@@ -9,7 +9,7 @@ Bolts (Without App Links)
 [![Pod Version](https://img.shields.io/cocoapods/v/Bolts.svg?style=flat)](https://cocoapods.org/pods/Bolts)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-NOTE: 
+**Note:**
 Bolts framework uses UIWebView for App Links feature which is not required for Amazon Fling SDK used for FireTV Casting.
 UIWebView is deprecated by Apple and customers are seeing warning about it when submitting their apps to Appstore.
 
