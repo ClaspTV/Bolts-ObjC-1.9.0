@@ -1,4 +1,4 @@
-Bolts
+Bolts (Without App Links)
 ============
 [![Build Status](https://img.shields.io/travis/BoltsFramework/Bolts-ObjC/master.svg?style=flat)](https://travis-ci.org/BoltsFramework/Bolts-ObjC)
 [![Coverage Status](https://codecov.io/github/BoltsFramework/Bolts-ObjC/coverage.svg?branch=master)](https://codecov.io/github/BoltsFramework/Bolts-ObjC?branch=master)
@@ -8,6 +8,10 @@ Bolts
 
 [![Pod Version](https://img.shields.io/cocoapods/v/Bolts.svg?style=flat)](https://cocoapods.org/pods/Bolts)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+NOTE: 
+Bolts framework uses UIWebView for App Links feature which is not required for Amazon Fling SDK used for FireTV Casting.
+UIWebView is deprecated by Apple and customers are seeing warning about it when submitting their apps to Appstore.
 
 Bolts is a collection of low-level libraries designed to make developing mobile
 apps easier. Bolts was designed by Parse and Facebook for our own internal use,
